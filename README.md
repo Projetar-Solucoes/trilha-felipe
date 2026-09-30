@@ -1,5 +1,4 @@
-<!--
-  👋 ESTE É O SEU README. Ele é a porta de entrada do seu projeto.
+👋 ESTE É O SEU README. Ele é a porta de entrada do seu projeto.
 
   Como usar este modelo:
   1. Troque tudo que está entre [colchetes] pelo seu conteúdo.
@@ -7,13 +6,12 @@
   3. NÃO apague nem renomeie os títulos que começam com "##":
      a plataforma confere se eles existem.
   4. Atualize este arquivo todo dia — ele conta a sua evolução.
--->
 
 <div align="center">
 
-# Central de Solicitações · [Seu nome]
+# Central de Solicitações · [Luís Felipe]
 
-**[Uma frase que explica o que o projeto faz. Ex.: "Um sistema para registrar e acompanhar pedidos de suporte, feito do zero em Python."]**
+**[Rascunho de Projeto em Pyhton]**
 
 ![Python](https://img.shields.io/badge/Python-3-0b6bb8?style=for-the-badge&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-versionado-084e8c?style=for-the-badge&logo=git&logoColor=white)
@@ -50,9 +48,10 @@ python semana-03/central.py
 
 <!-- Honestidade vale mais que promessa. Marque [x] o que funciona e deixe [ ] o que ainda falta. -->
 
-- [x] [Cadastrar uma solicitação]
-- [x] [Listar as solicitações]
-- [ ] [O que ainda não funciona ou você quer fazer]
+- [ ] [Cadastrar uma solicitação]
+- [ ] [Listar as solicitações]
+- [ ] [Cadastrar e registrar várias solicitações.]
+- [ ] [Gerar número de protocolo]
 
 <!-- Um print vale mais que mil palavras: arraste a imagem para cá quando editar no GitHub. -->
 <!-- ![A Central rodando no terminal](imagens/central-rodando.png) -->
@@ -86,6 +85,6 @@ python semana-03/central.py
 
 <div align="center">
 
-Feito por **[Seu nome]** · [seu-usuario-no-github](https://github.com/[seu-usuario-no-github])
+Feito por **[Felipe Cavalcante]** · [@felps799](https://github.com/felps799)
 
 </div>
