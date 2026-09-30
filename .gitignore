@@ -1,0 +1,23 @@
+# O que o Git NÃO deve guardar.
+# Cada linha é um arquivo ou pasta. "/" no fim quer dizer "a pasta inteira".
+
+# Arquivos que o próprio Python gera sozinho ao rodar
+__pycache__/
+*.pyc
+
+# Ambiente virtual do Python (cada computador cria o seu)
+.venv/
+venv/
+
+# Senhas, chaves e configurações secretas — NUNCA vão para o GitHub
+.env
+
+# Cópias automáticas do Jupyter/Colab
+.ipynb_checkpoints/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações pessoais do editor
+.vscode/
