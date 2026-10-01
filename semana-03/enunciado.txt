@@ -1,0 +1,140 @@
+DESAFIO M3 — CENTRAL DE SOLICITAÇÕES
+Objetivo
+
+Hoje vocês irão evoluir a Central de Solicitações criada no M2.
+
+No final do desafio, o sistema deverá conseguir cadastrar várias solicitações, armazená-las em um arquivo JSON, consultar os dados posteriormente e tratar erros sem encerrar o programa.
+
+Além disso, o código deverá ser organizado utilizando funções e módulos.
+
+PARTE 1 — Organizar o projeto
+
+Antes de adicionar novas funcionalidades, organize o código do M2.
+
+Separe o programa em funções responsáveis por diferentes tarefas.
+
+Por exemplo, o sistema deverá possuir funções para responsabilidades como:
+
+exibir o menu;
+cadastrar uma solicitação;
+listar solicitações;
+consultar uma solicitação;
+mostrar estatísticas;
+salvar dados;
+carregar dados.
+
+Não coloque todo o sistema dentro de um único bloco de código.
+
+Também organize o projeto em mais de um arquivo .py, separando responsabilidades.
+
+PARTE 2 — Permitir vários cadastros
+
+No M2, o sistema trabalhava com uma solicitação por vez.
+
+Agora ele deverá permitir:
+
+Cadastrar solicitação
+Cadastrar outra solicitação
+Cadastrar outra solicitação
+...
+
+Todas as solicitações deverão permanecer disponíveis enquanto o programa estiver funcionando.
+
+Cada solicitação deve possuir:
+
+protocolo;
+nome;
+setor;
+categoria;
+assunto;
+descrição;
+prioridade.
+
+Utilize uma estrutura adequada para armazenar várias solicitações.
+
+PARTE 3 — Salvar os dados em JSON
+
+As solicitações não podem desaparecer quando o programa for encerrado.
+
+Crie um arquivo:
+
+solicitacoes.json
+
+Sempre que necessário, o programa deverá salvar as solicitações nesse arquivo.
+
+Quando o programa for iniciado novamente, deverá carregar os dados existentes.
+
+Teste obrigatório
+Cadastre pelo menos 3 solicitações.
+Encerre o programa.
+Execute novamente.
+Liste as solicitações.
+Verifique se as 3 solicitações continuam disponíveis.
+PARTE 4 — Consultar uma solicitação
+
+Crie uma opção no menu para consultar uma solicitação pelo protocolo.
+
+Exemplo:
+
+Digite o protocolo: 2026-002-JAP
+
+Se existir, mostre os dados da solicitação.
+
+Se não existir, mostre uma mensagem informando que o protocolo não foi encontrado.
+
+O programa deve continuar funcionando normalmente.
+
+PARTE 5 — Estatísticas
+
+A opção de estatísticas deverá analisar as solicitações cadastradas e apresentar informações como:
+
+=== ESTATÍSTICAS ===
+
+Total de solicitações: 5
+
+Por prioridade:
+Alta: 2
+Média: 2
+Baixa: 1
+
+Por categoria:
+Suporte: 2
+Acesso: 1
+Sistema: 2
+
+Os valores devem ser calculados pelo programa, e não escritos manualmente.
+
+PARTE 6 — Tratamento de erros
+
+O sistema não pode ser encerrado simplesmente porque o usuário digitou algo inesperado.
+
+Teste situações como:
+
+opção inexistente no menu;
+campo obrigatório vazio;
+categoria inválida;
+protocolo inexistente;
+número em formato inválido;
+arquivo JSON ainda não existente;
+arquivo JSON com problema.
+
+Utilize tratamento de exceções quando necessário.
+
+PARTE 7 — Teste completo
+
+Antes de finalizar, outra dupla deverá testar o sistema.
+
+Ela deverá tentar:
+
+Cadastrar uma solicitação válida.
+Cadastrar várias solicitações.
+Listar as solicitações.
+Consultar um protocolo existente.
+Consultar um protocolo inexistente.
+Fechar e abrir novamente o programa.
+Escolher uma opção inválida.
+Enviar um campo vazio.
+Informar uma categoria inválida.
+Verificar as estatísticas.
+
+Corrijam os problemas encontrados durante os testes.
