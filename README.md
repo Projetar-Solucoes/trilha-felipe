@@ -9,9 +9,9 @@
 
 <div align="center">
 
-# Central de Solicitações · [Luís Felipe]
+# Central de Solicitações · Luís Felipe
 
-**[Rascunho de Projeto em Pyhton]**
+**Rascunho de Projeto em Pyhton**
 
 ![Python](https://img.shields.io/badge/Python-3-0b6bb8?style=for-the-badge&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-versionado-084e8c?style=for-the-badge&logo=git&logoColor=white)
@@ -85,6 +85,6 @@ python semana-03/central.py
 
 <div align="center">
 
-Feito por **[Felipe Cavalcante]** · [@felps799](https://github.com/felps799)
+Feito por **Felipe Cavalcante** · [@felps799](https://github.com/felps799)
 
 </div>
