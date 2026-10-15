@@ -1,12 +1,3 @@
-👋 ESTE É O SEU README. Ele é a porta de entrada do seu projeto.
-
-  Como usar este modelo:
-  1. Troque tudo que está entre [colchetes] pelo seu conteúdo.
-  2. Apague estes comentários (o que está entre <!-- e -->) quando terminar.
-  3. NÃO apague nem renomeie os títulos que começam com "##":
-     a plataforma confere se eles existem.
-  4. Atualize este arquivo todo dia — ele conta a sua evolução.
-
 <div align="center">
 
 # Central de Solicitações · Luís Felipe
@@ -25,13 +16,15 @@ Trilha de Formação em Desenvolvimento de Soluções com IA · [Projetar Soluç
 
 ## Sobre o projeto
 
-<!-- Em 2 ou 3 frases, sem palavras difíceis: o que o programa faz e para quem. -->
+A Central de Solicitações permite cadastrar pedidos de suporte divididos por setores, categorias e prioridades, gerando um protocolo único baseado no ano, número sequencial e iniciais do usuário. Todos os dados são salvos de forma persistente em um arquivo JSON para que nenhuma informação seja perdida.
 
-[O que o seu programa faz. Ex.: "A Central recebe solicitações (nome, setor, categoria e descrição), gera um protocolo para cada uma e guarda tudo num arquivo, para ninguém perder um pedido."]
+<div align="center">
+
+<img src="imagens/central-rodando.png" alt="A Central rodando no terminal" width="600px">
+
+</div>
 
 ## Como rodar
-
-<!-- Os comandos EXATOS, na ordem. Teste: alguém que nunca viu o projeto consegue rodar só lendo isto? -->
 
 **Você vai precisar de:** Python 3 instalado.
 
@@ -46,15 +39,13 @@ python semana-03/central.py
 
 ## O que já funciona
 
-<!-- Honestidade vale mais que promessa. Marque [x] o que funciona e deixe [ ] o que ainda falta. -->
-
-- [ ] [Cadastrar uma solicitação]
-- [ ] [Listar as solicitações]
-- [ ] [Cadastrar e registrar várias solicitações.]
-- [ ] [Gerar número de protocolo]
-
-<!-- Um print vale mais que mil palavras: arraste a imagem para cá quando editar no GitHub. -->
-<!-- ![A Central rodando no terminal](imagens/central-rodando.png) -->
+- [x] [Cadastrar uma solicitação]
+- [x] [Listar as solicitações]
+- [x] [Cadastrar e registrar várias solicitações.]
+- [x] [Gerar número de protocolo]
+- [ ] [Alterar solicitação]
+- [ ] [Excluir solicitação]
+- [ ] [Exportar dados para CSV]
 
 ## Como o projeto está organizado
 
@@ -64,22 +55,20 @@ python semana-03/central.py
 | `semana-02/` | [Menu, validações e relatórios] |
 | `semana-03/` | [Código em funções e módulos, com dados salvos em JSON] |
 | `semana-04/` | [Análise dos dados com Pandas] |
-| `imagens/` | Prints usados neste README |
+| `imagens/`   | Prints usados neste README |
 
 ## O que aprendi
 
-<!-- O seu diário. Uma ou duas linhas por semana, com as suas palavras. -->
-
-- **Semana 1:** [Ex.: aprendi a ler dados do teclado e a transformar texto em número.]
-- **Semana 2:** [...]
-- **Semana 3:** [...]
-- **Semana 4:** [...]
+- **Semana 1:** [Aprendi a ler dados do teclado, estruturar entradas e organizar os primeiros programas básicos em Python.]
+- **Semana 2:** [Desenvolvi estruturas de controle, menus interativos, validações robustas e tratamento de erros de entrada.]
+- **Semana 3:** [Apliquei modularização dividindo o código em funções e arquivos separados, além de implementar persistência de dados com JSON.]
+- **Semana 4:** [Em breve: Análise e manipulação dos dados utilizando Pandas e Gestão de Versionamento de Código pelo Git e GitHub]
 
 ## Tecnologias
 
 - Python 3
 - Git e GitHub
-- [Pandas, a partir da semana 4]
+- Pandas
 
 ---
 
