@@ -2,8 +2,10 @@ from datetime import date
 from time import sleep
 import json
 import os
+from pathlib import Path
 
-ARQUIVO_JSON = "solicitações.json"
+DIRETORIO_ATUAL = Path(__file__).parent
+ARQUIVO_JSON = DIRETORIO_ATUAL/"solicitações.json"
 
 SETORES = {
     "1": "Financeiro",
